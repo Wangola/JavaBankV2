@@ -284,8 +284,8 @@ public class JavaBankList extends JFrame {
       Account tempAccount = (Account) Accounts.get(Accounts.size() - 1);
       //Display tempAccount
       displayJTextArea.setText(
-          Accounts.size() + " " + tempAccount.getaccountname() + " " + tempAccount.getaccountnum()
-              + " " + tempAccount.getbalance());
+          Accounts.size() + " " + tempAccount.getAccountName() + " " + tempAccount.getAccountNum()
+              + " " + tempAccount.getBalance());
 
     } else {
       displayJTextArea.setText("Both the Name field and Account Number must be completed");
@@ -336,21 +336,21 @@ public class JavaBankList extends JFrame {
         // get the element and set to TempAccount
         Account tempAccount = (Account) Accounts.get(i);
         // if account number matches and deposit field has entry then deposit in account
-        if ((tempAccount.accountnum == Accountnum) && (Deposit > 0)) {
-          tempAccount.setbalance(tempAccount.getbalance() + Deposit);
+        if ((tempAccount.accountNum == Accountnum) && (Deposit > 0)) {
+          tempAccount.setBalance(tempAccount.getBalance() + Deposit);
           Accounts.set(i, tempAccount);
           displayJTextArea.setText(
-              tempAccount.getaccountname() + " " + tempAccount.getaccountnum() + " " + tempAccount
-                  .getbalance());
+              tempAccount.getAccountName() + " " + tempAccount.getAccountNum() + " " + tempAccount
+                  .getBalance());
 
         }
         // if account number matches and withdrawal field has entry then withdraw from account
-        if ((tempAccount.accountnum == Accountnum) && (Withdraw > 0)) {
-          tempAccount.setbalance(tempAccount.getbalance() - Withdraw);
+        if ((tempAccount.accountNum == Accountnum) && (Withdraw > 0)) {
+          tempAccount.setBalance(tempAccount.getBalance() - Withdraw);
           Accounts.set(i, tempAccount);
           displayJTextArea.setText(
-              tempAccount.getaccountname() + " " + tempAccount.getaccountnum() + " " + tempAccount
-                  .getbalance());
+              tempAccount.getAccountName() + " " + tempAccount.getAccountNum() + " " + tempAccount
+                  .getBalance());
 
         }
       }
@@ -377,8 +377,8 @@ public class JavaBankList extends JFrame {
       for (int i = 0; i < Accounts.size(); i++) {
         Account tempAccount = (Account) Accounts.get(i);
         displayJTextArea.append(
-            tempAccount.getaccountname() + " " + tempAccount.getaccountnum() + " " + tempAccount
-                .getbalance() + "\n");
+            tempAccount.getAccountName() + " " + tempAccount.getAccountNum() + " " + tempAccount
+                .getBalance() + "\n");
 
 
       }
