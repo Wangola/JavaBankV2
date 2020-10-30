@@ -6,10 +6,12 @@ public class TestCustomerAccounts {
         AbstractBankAccount[5];
 
     // Instantiate 2 credit accounts using constructor with
-    bankAccounts[0] = new Account("Sanjay Gupta", 11556, 300);
-    bankAccounts[1] = new Account("He Xai", 22338, 500);
-    bankAccounts[2] = new Account("Ilya Mustafana", 44559, 1000);
-// Instantiate 2 credit accounts using constructor with
+    bankAccounts[0] = new Account("Sanjay Gupta",11556,300,
+        AccountType.SAVINGS);
+    bankAccounts[1] = new Account("He Xai",22338,500, AccountType.SAVINGS);
+    bankAccounts[2] = new Account("Ilya Mustafana",44559,1000,
+        AccountType.SAVINGS);
+    // Instantiate 2 credit accounts using constructor with
     bankAccounts[3] = new CreditAccount("A.N Other", 88776, 500);
     bankAccounts[4] = new CreditAccount("Another", 66778, 1000, 500);
 

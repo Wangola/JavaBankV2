@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="901a00e4-4f37-44f7-b0bc-d2d54cbe5f8f" name="Default Changelist" comment="Made an abstract class while updating a lot of stuff in Account class and both testBank and testCreditAccount. Also made new TestCustomerAccounts class" />
+    <list default="true" id="901a00e4-4f37-44f7-b0bc-d2d54cbe5f8f" name="Default Changelist" comment="Made an abstract class while updating a lot of stuff in Account class and both testBank and testCreditAccount. Also made new TestCustomerAccounts class">
+      <change afterPath="$PROJECT_DIR$/src/AccountType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaBankArrayListDelete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaBankArrayListDelete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaBankList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaBankList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestCustomerAccounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestCustomerAccounts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testCreditAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testCreditAccount.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,13 +22,14 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="2-2" />
+        <entry key="$PROJECT_DIR$" value="2-3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,19 +78,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.TestCustomerAccounts" />
@@ -98,7 +96,11 @@
       <option name="presentableId" value="Default" />
       <updated>1603919841874</updated>
       <workItem from="1603919842893" duration="747000" />
-      <workItem from="1603920609596" duration="5591000" />
+      <workItem from="1603920609596" duration="7448000" />
+      <workItem from="1603935570476" duration="5000" />
+      <workItem from="1604006542263" duration="315000" />
+      <workItem from="1604007532883" duration="1170000" />
+      <workItem from="1604071287020" duration="917000" />
     </task>
     <task id="LOCAL-00001" summary="Made an interface called InterfaceBankAccount that interacts with the Account.java. &#10;&#10;Info/Code grabbed from Oracle JP 2-2">
       <created>1603921991143</created>
@@ -114,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603926200106</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Made an abstract class while updating a lot of stuff in Account class and both testBank and testCreditAccount. Also made new TestCustomerAccounts class">
+      <created>1603926262665</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603926262665</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,29 +150,29 @@
       <screen x="-1080" y="-387" width="1080" height="1880" />
     </state>
     <state x="-752" y="258" key="Github.UntrackedFilesDialog/-1080.-387.1080.1880/0.0.1920.1040@-1080.-387.1080.1880" timestamp="1603920669684" />
-    <state width="1037" height="559" key="GridCell.Tab.0.bottom" timestamp="1603926120581">
+    <state width="1037" height="561" key="GridCell.Tab.0.bottom" timestamp="1603929951084">
       <screen x="-1080" y="-387" width="1080" height="1880" />
     </state>
-    <state width="1037" height="559" key="GridCell.Tab.0.bottom/-1080.-387.1080.1880/0.0.1920.1040@-1080.-387.1080.1880" timestamp="1603926120581" />
-    <state width="1037" height="559" key="GridCell.Tab.0.center" timestamp="1603926120581">
+    <state width="1037" height="561" key="GridCell.Tab.0.bottom/-1080.-387.1080.1880/0.0.1920.1040@-1080.-387.1080.1880" timestamp="1603929951084" />
+    <state width="1037" height="561" key="GridCell.Tab.0.center" timestamp="1603929951084">
       <screen x="-1080" y="-387" width="1080" height="1880" />
     </state>
-    <state width="1037" height="559" key="GridCell.Tab.0.center/-1080.-387.1080.1880/0.0.1920.1040@-1080.-387.1080.1880" timestamp="1603926120581" />
-    <state width="1037" height="559" key="GridCell.Tab.0.left" timestamp="1603926120581">
+    <state width="1037" height="561" key="GridCell.Tab.0.center/-1080.-387.1080.1880/0.0.1920.1040@-1080.-387.1080.1880" timestamp="1603929951084" />
+    <state width="1037" height="561" key="GridCell.Tab.0.left" timestamp="1603929951084">
       <screen x="-1080" y="-387" width="1080" height="1880" />
     </state>
-    <state width="1037" height="559" key="GridCell.Tab.0.left/-1080.-387.1080.1880/0.0.1920.1040@-1080.-387.1080.1880" timestamp="1603926120581" />
-    <state width="1037" height="559" key="GridCell.Tab.0.right" timestamp="1603926120581">
+    <state width="1037" height="561" key="GridCell.Tab.0.left/-1080.-387.1080.1880/0.0.1920.1040@-1080.-387.1080.1880" timestamp="1603929951084" />
+    <state width="1037" height="561" key="GridCell.Tab.0.right" timestamp="1603929951084">
       <screen x="-1080" y="-387" width="1080" height="1880" />
     </state>
-    <state width="1037" height="559" key="GridCell.Tab.0.right/-1080.-387.1080.1880/0.0.1920.1040@-1080.-387.1080.1880" timestamp="1603926120581" />
+    <state width="1037" height="561" key="GridCell.Tab.0.right/-1080.-387.1080.1880/0.0.1920.1040@-1080.-387.1080.1880" timestamp="1603929951084" />
     <state x="-1039" y="198" key="SettingsEditor" timestamp="1603920745927">
       <screen x="-1080" y="-387" width="1080" height="1880" />
     </state>
     <state x="-1039" y="198" key="SettingsEditor/-1080.-387.1080.1880/0.0.1920.1040@-1080.-387.1080.1880" timestamp="1603920745927" />
-    <state x="-948" y="273" key="Vcs.Push.Dialog.v2" timestamp="1603921995986">
+    <state x="-948" y="273" key="Vcs.Push.Dialog.v2" timestamp="1603926265127">
       <screen x="-1080" y="-387" width="1080" height="1880" />
     </state>
-    <state x="-948" y="273" key="Vcs.Push.Dialog.v2/-1080.-387.1080.1880/0.0.1920.1040@-1080.-387.1080.1880" timestamp="1603921995986" />
+    <state x="-948" y="273" key="Vcs.Push.Dialog.v2/-1080.-387.1080.1880/0.0.1920.1040@-1080.-387.1080.1880" timestamp="1603926265127" />
   </component>
 </project>
